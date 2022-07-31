@@ -1,0 +1,93 @@
+body {
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 14xp;
+line-height: 1.5;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: minmax(150px, 250px) 3fr;
+    gap: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+.block__left-column {
+    padding: 15px;
+    display: flex;
+    
+background-color: #ccc;
+}
+
+.block__right-column {
+    padding: 20px;
+}
+
+.contact__img {
+    max-width: 80%;
+    height: fit-content;
+    overflow: hidden;
+    border: 10px solid #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    animation: ava-animate 5s infinite alternate;
+}
+
+@keyframes ava-animate {
+    0% {
+        border-radius: 15% ;
+    }
+
+    100% {
+        border-radius: 25% ;
+    }
+
+}
+
+@keyframes ava-bg {
+    from {
+        backdrop-filter: hue-rotate(0);
+    } 
+
+    to {
+        backdrop-filter: hue-rotate(90);
+    } 
+}
+
+.img {
+width: 100%;
+}
+
+.job__item {
+    margin-bottom: 40px;
+}
+
+.item-title {
+    margin: 0 0 5px 0;
+}
+
+.item-time {
+    margin: 0;
+}
+
+.item-place {
+    margin: 0 0 1vh 0;
+}
+
+.item-duties__title {
+    margin: 0;
+}
