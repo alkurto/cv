@@ -38,7 +38,7 @@ background-color: #ccc;
 }
 
 .contact__img {
-    max-width: 80%;
+    max-width: 60%;
     height: fit-content;
     overflow: hidden;
     border: 10px solid #fff;
